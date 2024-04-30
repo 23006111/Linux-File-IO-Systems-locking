@@ -40,7 +40,7 @@ while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
 exit(0);}
 
-
+~~~
 ## OUTPUT
 ~~~
 $ gcc -o filecopy.o filecopy.c
@@ -122,7 +122,7 @@ COMMAND           PID  TYPE SIZE MODE  M START END PATH
 :
 lock2.o          3130 FLOCK  41B WRITE 0     0   0 /home/gganesh/class/2ndunit/tricky.txt
 
-
+~~~
 
 
 
